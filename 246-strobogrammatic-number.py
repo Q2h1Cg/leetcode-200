@@ -3,7 +3,7 @@ import collections
 
 class Solution:
     def isStrobogrammatic(self, num: str) -> bool:
-        table = collections.defaultdict(lambda: -1,
+        table = collections.defaultdict(lambda: '',
                                         {
                                             '0': '0',
                                             '1': '1',
